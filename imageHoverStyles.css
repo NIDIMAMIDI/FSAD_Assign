@@ -1,0 +1,25 @@
+head, body{
+    margin:0;
+    padding: 0;
+}
+.parent{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(239, 200, 149);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.parent > div img{
+    border-radius: 10px;
+}
+.parent > div img:hover{
+    transform:scale(1.2);
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(117, 184, 161);
+    margin:0;
+}

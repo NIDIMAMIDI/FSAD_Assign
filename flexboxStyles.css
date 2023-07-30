@@ -1,0 +1,52 @@
+head, body{
+    padding: 0;
+    margin:0;
+    height:100%;
+    width:100%;
+}
+.flex-container{
+    display:flex;
+    height:80px;
+    justify-content: space-around;
+    background-color: rgb(240, 168, 81);
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 0px;
+
+}
+a{
+    text-decoration: none;
+    color:aquamarine;
+}
+a:hover{
+    color:black;
+}
+.flex-container > div:hover{
+    background-color: brown;
+}
+.flex-container > div{
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px    ;
+}
+.mainArea{
+    height:400px;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.mainArea > div{
+    width:20%;
+    height:100%;
+    background-color: rgb(144, 144, 63);
+    border-radius: 5px;
+    color: black;
+}
+.footer{    
+    height:60px;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
